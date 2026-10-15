@@ -1,0 +1,35 @@
+{
+  "name": "vibeforge-cli",
+  "version": "0.1.0",
+  "description": "Describe what you want in plain words. Gemini builds the whole project on disk. Zero dependencies.",
+  "author": "Youssef Amir",
+  "repository": { "type": "git", "url": "git+https://github.com/youssefamirgg/vibeforge.git" },
+  "homepage": "https://github.com/youssefamirgg/vibeforge#readme",
+  "bugs": { "url": "https://github.com/youssefamirgg/vibeforge/issues" },
+  "type": "module",
+  "bin": {
+    "vibeforge": "bin/vibeforge.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18.3"
+  },
+  "keywords": [
+    "cli",
+    "gemini",
+    "ai",
+    "scaffold",
+    "generator",
+    "vibe-coding",
+    "developer-tools"
+  ],
+  "license": "MIT"
+}
